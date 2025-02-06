@@ -1,0 +1,50 @@
+.game-over-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Darker semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .game-over-popup-inner {
+    background-color: #222; /* Dark background */
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+    color: #eee; /* Light text color */
+    border: 2px solid #555; /* Subtle border */
+  }
+  
+  .game-over-popup-inner h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #fdd835; /* Gold color for the title */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Text shadow */
+  }
+  
+  .game-over-popup-inner p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .game-over-popup-inner button {
+    padding: 12px 25px;
+    background-color: #e64a19; /* Orange-red button */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .game-over-popup-inner button:hover {
+    background-color: #d84315; /* Darker orange-red on hover */
+  }
+  

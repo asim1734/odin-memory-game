@@ -1,0 +1,27 @@
+
+body {
+  background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+  min-height: 100vh;
+  font-family: 'Press Start 2P', cursive;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 20px;
+  color: #333;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.scores{
+  display: flex;
+}
+
+h3{
+  margin: 10px;
+}
